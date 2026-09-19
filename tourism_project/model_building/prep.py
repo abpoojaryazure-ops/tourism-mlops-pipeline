@@ -1,4 +1,4 @@
-#Use the project folder name, then the folder where model building code will be stored.
+# Use the project folder name, then the folder where model building code will be stored.
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
