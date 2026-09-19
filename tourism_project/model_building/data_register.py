@@ -1,3 +1,7 @@
+import pandas as pd
+
+RAW_PATH = "tourism_project/data/tourism.csv"
+df = pd.read_csv(RAW_PATH)
 expected_columns = [
     "CustomerID", "ProdTaken", "Age", "TypeofContact", "CityTier",
     "DurationOfPitch", "Occupation", "Gender", "NumberOfPersonVisiting",
